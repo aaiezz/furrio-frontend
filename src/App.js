@@ -9,7 +9,7 @@ class App {
   constructor(){
     this.name = "Services"
     this.version = "1.0.0"
-    this.apiBase = 'https://aahmed-furrio-backend.herokuapp.com'
+    this.apiBase = 'https://aahmed-furrio-backend.herokuapp.com', 'http://localhost:3000'
     this.rootEl = document.getElementById("root")
     this.version = "1.0.0"
   }
