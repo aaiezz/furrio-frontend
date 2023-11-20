@@ -10,7 +10,7 @@ class App {
     this.name = "Services"
     this.version = "1.0.0"
     this.apiBase = 'https://localhost:3000'
-    // this.apibase 'https://aahmed-furrio-backend-dbd2ae22f211.herokuapp.com/'
+    // this.apiBase 'https://aahmed-furrio-backend-dbd2ae22f211.herokuapp.com/'
     this.rootEl = document.getElementById("root")
     this.version = "1.0.0"
   }
