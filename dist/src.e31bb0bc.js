@@ -6583,6 +6583,8 @@ var _Toast = _interopRequireDefault(require("./Toast"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 // everything below has been taken from the weekly exercises - template used: va-service.js
 
+const apiUrl = 'https://github.com/aaiezz/furrio-backend'; // linking Furrio-backend
+
 class ServiceAPI {
   async newService(formData) {
     // send fetch request
@@ -13368,7 +13370,8 @@ class App {
   constructor() {
     this.name = "Services";
     this.version = "1.0.0";
-    this.apiBase = 'http://localhost:3000';
+    this.apiBase = 'https://localhost:3000';
+    //this.apiBase = 'https://aahmed-furrio-backend-dbd2ae22f211.herokuapp.com/'
     this.rootEl = document.getElementById("root");
     this.version = "1.0.0";
   }
@@ -15276,7 +15279,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64372" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55732" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
